@@ -23,7 +23,6 @@ const respostas = [
   "Sinais apontam que sim.",
 ]
 
-
 function fazerPergunta() {
   if (inputPergunta.value == "") {
     alert("Digite sua pergunta")
