@@ -30,11 +30,9 @@ function fazerPergunta() {
     return
   }
 
-  const buttonPerguntar = document.querySelector("#buttonPergunta")
-
+  buttonPerguntar.setAttribute("disabled", true)
 
   const pergunta = "<div>" + inputPergunta.value + "</div>"
-
 
   const totalRespostas = respostas.length
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)

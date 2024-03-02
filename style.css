@@ -7,11 +7,11 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: sans-serif; 
 }
 
 #container {
-  margin-top: 50px;
+  margin-top: 100px;
   width: 80%;
   max-width: 400px;
   margin-inline: auto;
@@ -28,8 +28,7 @@ p {
   opacity: 0.7;
 }
 
-input,
-button {
+input, button {
   display: block;
   width: 100%;
 
@@ -46,7 +45,7 @@ button {
   border: none;
   background-color: blueviolet;
   color: white;
-  transition: filter 0.2s;
+  transition: filter .2s;
 }
 
 /* pseudo-class :hover */
@@ -59,7 +58,6 @@ button:hover {
   margin-top: 30px;
 
   transition: opacity 1s;
-  margin-bottom: 20px;
 }
 
 #resposta div {
@@ -67,14 +65,4 @@ button:hover {
   font-weight: normal;
   opacity: 0.9;
   margin-bottom: 10px;
-}
-
-footer {
-  margin-bottom: 25px;
-  font-size: 15px;
-}
-
-a { 
-  text-decoration: none;
-  color: white;
 }
