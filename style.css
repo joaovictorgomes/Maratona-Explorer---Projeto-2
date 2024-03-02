@@ -66,6 +66,10 @@ button:hover {
   margin-bottom: 10px;
 }
 
+div{
+  margin-bottom: 50px;
+}
+
 footer {
   margin-top: 50px;
   font-size: 14px;
